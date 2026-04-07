@@ -1,0 +1,33 @@
+.theme-light-icon img { filter: invert(1); }
+.bola-titulo {
+    width: 75px;
+    height: 75px;
+    vertical-align: middle;
+    margin-right: 10px;
+    opacity: 0.70;
+    background-color: transparent !important;
+    mix-blend-mode: normal;
+}
+#contenedor-bandera {
+    background-color: #ffffff !important;
+    padding: 5px !important;
+    display: inline-block !important;
+    border-radius: 4px !important;
+    border: 2px solid black;
+}
+#tablaPaises, #tablaPaises td, #tablaPaises th { font-size: 1.10em; }
+#tablaPaises { min-width: 1620px; }
+#tablaPaises th, #tablaPaises td {
+    text-align: center;
+    vertical-align: middle;
+}
+#tablaPaises th:nth-child(8), #tablaPaises td:nth-child(8) { width: 80px; }
+#tablaPaises th:nth-child(10), #tablaPaises td:nth-child(10) { width: 120px; }
+th a { color: white; text-decoration: none; }
+th a:hover { text-decoration: underline; }
+.badge-europa { background-color: #3498db; color: white; }
+.badge-asia { background-color: #e74c3c; color: white; }
+.badge-america-norte { background-color: #2ecc71; color: white; }
+.badge-america-sur { background-color: #f39c12; color: white; }
+.badge-africa { background-color: #9b59b6; color: white; }
+.badge-oceania { background-color: #1abc9c; color: white; }
